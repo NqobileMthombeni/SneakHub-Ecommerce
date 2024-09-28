@@ -3,8 +3,8 @@ This project showcases my design skills and front-end creativity! 👟✨
 
 ## 🖼️ Screenshots
 
-### Homepage
-![KicksKart](./screenshots/Screenshot%2024-09-28%20at%2023.59.54.png)
+![KicksKart Screenshot](./screenshots/Screenshot%2024-09-28%20at%2023.59.54.png)
+
 
 
 
