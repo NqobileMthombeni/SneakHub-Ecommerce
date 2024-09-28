@@ -1,6 +1,13 @@
 KicksKart is a creative project that displays Nike sneakers in a clean, visually appealing layout.
 This project showcases my design skills and front-end creativity! 👟✨
 
+## 🖼️ Screenshots
+
+### Homepage
+![KicksKart Homepage](./screenshots/Screenshot%2024-09-28%20at%2023.59.54.png)
+
+
+
 💡 Project Overview
 
 📸 Creative Design: A focus on sleek visuals and smooth user experience.
