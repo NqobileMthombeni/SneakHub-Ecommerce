@@ -1,6 +1,9 @@
 KicksKart is a creative project that displays Nike sneakers in a clean, visually appealing layout.
 This project showcases my design skills and front-end creativity! 👟✨
 
+HERE IS THE LINK TO VIEW MY WEBSITE🫡:
+https://nqobilemthombeni.github.io/SneakHub-Ecommerce/
+
 ## 🖼️ Screenshots
 
 ![KicksKart](Screenshot%202024-09-28%20at%2023.59.54.png)
