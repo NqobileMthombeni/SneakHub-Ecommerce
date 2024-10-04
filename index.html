@@ -1,185 +1,276 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover our exclusive collection of sneakers featuring Off-White x AJ1, Yeezy Boost, and SAMBA OG">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
 
-      <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="swiper-bundle.min.css">
+    <title>Premium Sneakers Collection | Sneakers</title>
+</head>
+<body>
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="index.css">
 
-      <title>Responsive sneakers website - Bedimcode</title>
-   </head>
-   <body>
+   <img src="/Users/nqobilemthombeni/responsive-sneakers-website/assets/img/image7.png" alt="Cut-out image" class="cutout-img">
 
-      
+    <header class="header" id="header">
+        <nav class="nav container" aria-label="Main navigation">
+            <a href="#" class="nav__logo" aria-label="Sneakers home">Sneakers</a>
 
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-      <nav class="nav container">
-         <a href="#" class="nav__logo">UrbanFootprints</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list" role="menubar">
+                    <li role="none"><a href="#" class="nav__link" role="menuitem">Home</a></li>
+                    <li role="none"><a href="#" class="nav__link" role="menuitem">About Us</a></li>
+                    <li role="none"><a href="#" class="nav__link" role="menuitem">New</a></li>
+                    <li role="none"><a href="#" class="nav__link" role="menuitem">Collection</a></li>
+                    <li role="none"><a href="#" class="nav__link" role="menuitem">Contact</a></li>
+                </ul>
 
-         <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-               <li>
-                  <a href="#" class="nav__link">Home</a>
-                  </li>
+                <button class="nav__close" id="nav-close" aria-label="Close menu">
+                    <i class="ri-close-large-line" aria-hidden="true"></i>
+                </button>
 
-                  <li>
-                     <a href="#" class="nav__link">About Us</a>
-                  </li>
+                <div class="nav__social">
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener" class="nav__social-link" aria-label="Visit our Facebook page">
+                        <i class="ri-facebook-circle-line" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="nav__social-link" aria-label="Visit our Instagram page">
+                        <i class="ri-instagram-line" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener" class="nav__social-link" aria-label="Visit our Twitter page">
+                        <i class="ri-twitter-x-line" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
 
-                  <li>
-                     <a href="#" class="nav__link">New</a>
-                  </li>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+                <i class="ri-apps-2-line" aria-hidden="true"></i>
+            </button>
+        </nav>
+    </header>
 
-                  <li>
-                     <a href="#" class="nav__link">Collection</a>
-                  </li>
+    <main class="main">
+        <section class="home">
+            <div class="home__container">
+                <div class="home__data">
+                    <h3 class="home__subtitle">NEW IN</h3>
 
-                  <li>
-                     <a href="#" class="nav__link">Contact</a>
-                  </li>
-                  </ul>
+                    <div class="home__titles swiper" data-thumb-slider>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <h1 class="home__title">Off-White x AJ1 <br>"Chicago"</h1>
+                            </div>
+                            <div class="swiper-slide">
+                                <h1 class="home__title">x Off-White <br> Air Jordan 1
+                            </div>
+                            <div class="swiper-slide">
+                                <h1 class="home__title">Air Jordan <br>4 Retro Royalty
 
-                  <!---close button -->
+                            </div>
+                        </div>
+                    </div>
 
-                  <div class="nav__close" id="nav-close">
-                     <i class="ri-close-large-line"></i>
-                  </div>
-               <div class="nav__social">
-                  <a href="https://www.facebook.com" target="_blank" class="nav__social">
-                     <i class="ri-facebook-circle-line"></i>
-                  </a>
-                  <a href="https://www.instagram.com/" target="_blank" class="nav__social">
-                     <i class="ri-instagram-line"></i>
-                  </a>
+                    <a href="#" class="home__button">
+                        Buy Now <i class="ri-arrow-right-line" aria-hidden="true"></i>
+                    </a>
+                </div>
 
-                  <a href="https://www.twitter.com/" target="_blank" class="nav__social">
-                     <i class="ri-twitter-x-line"></i>
-                  </a>
-               </div>
+                <div class="home__images">
+                    <div class="home__swiper swiper">
+                        <div class="swiper-wrapper">
+                            <article class="home__article swiper-slide">
+                                <div class="home__card">
+                                    <div class="home__circle home__circle-1"></div>
+                                    <img src="assets/img/image7.png" alt="Off-White x AJ1 Chicago sneaker" class="home__img-7">
+                                </div>
+                            </article>
+                            <article class="home__article swiper-slide">
+                                <div class="home__card">
+                                    <div class="home__circle home__circle-2"></div>
+                                    <img src="assets/img/image9.png" alt="Yeezy Boost 700 Wave Runner sneaker" class="home__img-9">
+                                </div>
+                            </article>
+                            <article class="home__article swiper-slide">
+                                <div class="home__card">
+                                    <div class="home__circle home__circle-3"></div>
+                                    <img src="assets/img/image8.png" alt="SAMBA OG sneaker" class="home__img-8">
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="home__footer">
+                    <div class="home__controls">
+                        <div class="swiper-pagination" role="navigation" aria-label="Slide pagination"></div>
+                        <div class="home__navigation">
+                            <button class="swiper-button-prev" aria-label="Previous slide">
+                                <i class="ri-arrow-left-line" aria-hidden="true"></i>
+                            </button>
+                            <button class="swiper-button-next" aria-label="Next slide">
+                                <i class="ri-arrow-right-line" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener" class="home__social-link" aria-label="Facebook">
+                            <i class="ri-facebook-circle-line" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="home__social-link" aria-label="Instagram">
+                            <i class="ri-instagram-line" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.twitter.com/" target="_blank" rel="noopener" class="home__social-link" aria-label="Twitter">
+                            <i class="ri-twitter-x-line" aria-hidden="true"></i>
+                        </a>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <section class="featured section" id="featured">
+      <h2 class="section__title">Featured Products</h2>
+      <div class="featured__container container">
+          <div class="featured__card">
+              <img src="pngwing.com.png" alt="Nike Dunk Low" class="featured__img">
+              <h3 class="featured__title">Nike Dunk Low</h3>
+              <span class="featured__price">R 1,699.9</span>
+              <button class="featured__button">
+                  Add to Cart <i class="ri-shopping-bag-line"></i>
+              </button>
+          </div>
+          
+          <div class="featured__card">
+              <img src="pngwing.com (1).png" alt="Yeezy" class="featured__img">
+              <h3 class="featured__title">Yezzy</h3>
+              <span class="featured__price">R 9,399.00</span>
+              <button class="featured__button">
+                  Add to Cart <i class="ri-shopping-bag-line"></i>
+              </button>
+          </div>
+          
+          <div class="featured__card">
+              <img src="pngwing.com (2).png" alt="New Balance 550" class="featured__img">
+              <h3 class="featured__title">Nike Women's Air Max 90 Multicolour Sneaker</h3>
+              <span class="featured__price">R 3,199.95
+            </span>
+              <button class="featured__button">
+                  Add to Cart <i class="ri-shopping-bag-line"></i>
+              </button>
+          </div>
+      </div>
+  </section>
+
+  <!-- New Collection Section -->
+  <section class="collection section" id="collection">
+      <div class="collection__container container">
+          <div class="collection__explore">
+              <div class="collection__data">
+                  <h2 class="collection__title">Explore New <br> Collections</h2>
+                  <p class="collection__description">
+                      Create your unique style with our latest arrivals. 
+                      From classic to contemporary, find your perfect pair.
+                  </p>
+                  <a href="#" class="button">Explore Now</a>
+              </div>
           </div>
 
-         <div class="nav__toggle" id="nav-toggle">
-            <i class="ri-apps-2-line"></i>
+          <div class="collection__cards">
+              <div class="collection__card">
+                  <img src="pngwing.com (6).png" alt="Limited Edition" class="collection__img">
+                  <div class="collection__content">
+                      <h3 class="collection__name">Limited Edition</h3>
+                      <span class="collection__price">From R 3,499.00</span>
+                  </div>
+              </div>
 
-         </div>
-      </nav>
-   </header>
+              <div class="collection__card">
+                  <img src="pngwing.com (5).png" alt="Exclusive Drops" class="collection__img">
+                  <div class="collection__content">
+                      <h3 class="collection__name">Exclusive Drops</h3>
+                      <span class="collection__price">From R1099</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home">
-               <div class="home__container">
-                   <div class="home__data">
-                     <h3 class="home__subtitle"> NEW IN </h3>
+  <!-- Newsletter Section -->
+  <section class="newsletter section">
+      <div class="newsletter__container container">
+          <h2 class="newsletter__title">Subscribe To Our Newsletter</h2>
+          <p class="newsletter__description">
+              Get the latest updates on new products and upcoming sales
+          </p>
 
+          <form action="" class="newsletter__form">
+              <input type="email" placeholder="Enter your email" class="newsletter__input">
+              <button class="newsletter__button button">Subscribe</button>
+          </form>
+      </div>
+  </section>
 
-                        <div thumbSlider="" class="home__titles swiper">
-                           <div class="swiper-wrapper" >
-                              <div class="swiper-slide">
-                                 <h1 class="home__title">
-                                    Off-White x AJ1 <br>"Chicago"
-                                 </h1>
-                              </div>
+  <!-- Footer -->
+  <footer class="footer section">
+      <div class="footer__container container grid">
+          <div class="footer__content">
+              <h3 class="footer__title">Our Information</h3>
+              <ul class="footer__list">
+                  <li>1234 Queens Street</li>
+                  <li>Rosebank, Gauteng</li>
+                  <li>678-456-7890</li>
+              </ul>
+          </div>
 
-                              <div class="swiper-slide">
-                                 <h1 class="home__title">
-                                    x Off-White <br> Air Jordan 1
-                                 </h1>
-                              </div>
+          <div class="footer__content">
+              <h3 class="footer__title">About Us</h3>
+              <ul class="footer__links">
+                  <li><a href="#" class="footer__link">Support Center</a></li>
+                  <li><a href="#" class="footer__link">Customer Service</a></li>
+                  <li><a href="#" class="footer__link">About Us</a></li>
+                  <li><a href="#" class="footer__link">Copy Right</a></li>
+              </ul>
+          </div>
 
-                              <div class="swiper-slide">
-                                 <h1 class="home__title">
-                                    Air Jordan <br>4 Retro Royalty
-                                 </h1>
-                               </div>
-                             </div>
-                           </div>
+          <div class="footer__content">
+              <h3 class="footer__title">Product</h3>
+              <ul class="footer__links">
+                  <li><a href="#" class="footer__link">Road shoes</a></li>
+                  <li><a href="#" class="footer__link">Running shoes</a></li>
+                  <li><a href="#" class="footer__link">Basketball shoes</a></li>
+                  <li><a href="#" class="footer__link">Football shoes</a></li>
+              </ul>
+          </div>
 
-                           <a href="#" class="home__button">
-                              Buy Now <i class="ri-arrow-right-line"></i>
-                           </a>
+          <div class="footer__content">
+              <h3 class="footer__title">Social</h3>
+              <ul class="footer__social">
+                  <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                      <i class="ri-facebook-fill"></i>
+                  </a>
+                  <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                      <i class="ri-instagram-line"></i>
+                  </a>
+                  <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                      <i class="ri-twitter-x-line"></i>
+                  </a>
+              </ul>
+          </div>
+      </div>
+      <span class="footer__copy">© All rights reserved</span>
+  </footer>
 
-
-                        </div>
-
-                   <div class="home__images">
-                       <div class="home__swiper swiper">
-                           <div class="swiper-wrapper">
-                              
-                               <article class="home__article swiper-slide">
-                                   <div class="home__card">
-                                       <div class="home__circle home__circle-1"></div>
-                                       <img src="img/image7.png" alt="image" class="home__img-7">
-                                   </div>
-                               </article>
-       
-                               <article class="home__article swiper-slide">
-                                   <div class="home__card">
-                                       <div class="home__circle home__circle-2"></div>
-                                       <img src="img/image9.png" alt="image" class="home__img-9">
-                                   </div>
-                               </article>
-       
-                               <article class="home__article swiper-slide">
-                                   <div class="home__card">
-                                       <div class="home__circle home__circle-3"></div>
-                                       <img src="img/image8.png" alt="image" class="home__img-8">
-                                   </div>
-                               </article>
-                              </div>
-                           </div>
-                       </div>
-       
-                       <footer class="home__footer">
-                           <div class="home__controls">
-                              <!-- pagination   --> 
-                           <div class="swiper-pagination"></div>
-
-                           <div class="home__navigation">
-                              <!-- Navigation buttons -->
-                              <div class="swiper-button-prev">
-                                 <i class="ri-arrow-left-line"></i>
-                              </div>
-
-                              <div class="swiper-button-next">
-                                 <i class="ri-arrow-right-line"></i>
-                              </div>
-                           </div>
-                        </div>
-
-                              <div class= "home social">
-                                 <a href="https://www.facebook.com" target="_blank" class="home__social-link">
-                                    <i class="ri-facebook-circle-line"></i>
-                                 </a>
-                                 <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
-                                    <i class="ri-instagram-line"></i>
-                                 </a>
-
-                                 <a href="https://www.twitter.com/" target="_blank" class="home__social-link">
-                                    <i class="ri-twitter-x-line"></i>
-                                 </a>
-                        </div>
-                  </footer> 
-               </div> 
-            </section>
-         </main>
-         
-      <!--=============== SWIPER JS ===============-->
-      <script src="swiper-bundle.min.js"></script>
-
-      <!--=============== MAIN JS ===============-->
-      <script src="main.js"></script>
-   </body>
+    <!-- Scripts -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
